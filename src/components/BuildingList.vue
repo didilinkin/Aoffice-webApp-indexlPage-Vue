@@ -1,12 +1,21 @@
 <template>
     <div id="buildingList">
-        <h3 class="buildingList__title"> 热门办公室推荐 </h3>
+        <div class="buildingList__title">
+            <!--文字内容,两侧有灰线-->
+            <!--暂以图片替-->
+            <img src="../assets/title@2x.png">
+        </div>
         <ul>
             <li v-for="item in BuildingList_Arr[0]">
                 <img :src="item.buildingList_imgUrl">
                 <div class="buildingList__info">
-                    <h2>{{ item.buildingList_title }}</h2>
-                    <h3>{{ item.buildingList_describe }}</h3>
+                    <div class="buildingList__info--left">
+                        <h2>{{ item.buildingList_title }}</h2>
+                        <h3>{{ item.buildingList_describe }}</h3>
+                    </div>
+                    <div class="buildingList__info--right">
+                        <img src="../assets/icon_nav.png">
+                    </div>
                 </div>
             </li>
         </ul>
@@ -24,14 +33,45 @@ export default {
 @import '../sass/mixin.sass'
 #buildingList
     /* 楼盘列表-大标题 */
-    .buildingList__title
+    .buildingList__title img
+        width: 100%
     ul li
+        +REM(margin-top,15px)
+        +boxShadow(.9px,.8px,2px,rgba(143,153,175,.1))
         /* 楼盘列表-楼盘图片 */
-        img
+        >img
+            width: 100%
+            @extend %dib
         /* 楼盘列表-楼盘信息 */
         .buildingList__info
+            +REM(padding-top,11.5px)
+            +REM(padding-bottom,11.5px)
+            +REM(margin-top,-4px)
+            width: 100%
+            +REM(height,(57px-11.5px))
             /* 暂时无法循环背景图片 */
-            background-image: url(../assets/map_home_recommended_1.png)
-            h2
-            h3
+            background:
+                image: url(../assets/map_home_recommended_1.png)
+                size: 100% 100%
+            .buildingList__info--left
+                @extend %dib
+                width: 85%
+                h2
+                    +REM(margin-left,10.5px)
+                    @extend %text-font
+                    +REM(line-height,21px)
+                h3
+                    +REM(margin-left,10.5px)
+                    color: $text-color
+                    +REM(font-size,12px)
+                >img
+                    font-size: 0
+                    display: block
+            .buildingList__info--right
+                @extend %dib
+                width: 13%
+        &:first-child
+            margin-top: 0
+        &:last-child
+            +REM(margin-bottom,15px)
 </style>

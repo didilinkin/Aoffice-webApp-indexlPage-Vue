@@ -18,4 +18,9 @@ export default {
 <style lang="sass?indentedSyntax">
 @import '../sass/mixin.sass'
 
+#content
+    +REM(padding-left,16px)
+    +REM(padding-right,16px)
+    width: ((375px-(16px)*2))/37.5px*1rem
+    +bC(#FAFAFA)
 </style>

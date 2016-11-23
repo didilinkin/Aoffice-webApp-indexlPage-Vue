@@ -45,8 +45,10 @@ export default {
             +REM(padding-top,19.5px)
             +REM(padding-bottom,19.5px)
             +REM(padding-left,12px)
-            +REM(width,225px-12px)
+            +REM(padding-right,12px)
+            +REM(width,225px-24px)
             +REM(height,49px)
+            border: none
         /* 搜索按钮 */
         .searchBtn
             @extend %flexCenter

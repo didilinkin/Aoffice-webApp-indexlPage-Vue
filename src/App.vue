@@ -9,7 +9,7 @@
 import { mapGetters, mapActions } from 'vuex'   // 引入Vuex‘获取方法 与 行为方法’
 import  Header      from    './components/Header.vue'
 import  Content     from    './components/Content.vue'
-const components = { Header,Content }
+const   components = { Header,Content }
 
 export default {
     components: components,
