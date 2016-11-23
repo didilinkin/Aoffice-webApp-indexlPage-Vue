@@ -1,0 +1,28 @@
+{
+    "buildingList": [
+        { 
+            "buildingList_imgUrl": "./dist/pic_home_recommended_1.png",
+            "buildingList_bgImgUrl": "./dist/map_home_recommended_1.png",
+            "buildingList_title": "楼盘标题_1",
+            "buildingList_describe": "楼盘描述_1"
+        },
+        { 
+            "buildingList_imgUrl": "./dist/pic_home_recommended_2.png",
+            "buildingList_bgImgUrl": "./dist/map_home_recommended_1.png",
+            "buildingList_title": "楼盘标题_2",
+            "buildingList_describe": "楼盘描述_2"
+        },
+        { 
+            "buildingList_imgUrl": "./dist/pic_home_recommended_3.png",
+            "buildingList_bgImgUrl": "./dist/map_home_recommended_1.png",
+            "buildingList_title": "楼盘标题_3",
+            "buildingList_describe": "楼盘描述_3"
+        },
+        {
+            "buildingList_imgUrl": "./dist/pic_home_recommended_4.png",
+            "buildingList_bgImgUrl": "./dist/map_home_recommended_1.png",
+            "buildingList_title": "楼盘标题_4",
+            "buildingList_describe": "楼盘描述_4"
+        }
+    ]
+}
