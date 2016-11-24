@@ -118,4 +118,11 @@ $textBackground-color: rgb(240,240,240)
     +REM(height,1px)
     border-top: 1px solid $string-color
     +REM(border-bottom-width,1px)
-    // #8f99af
+// 移动端图片控制
+=mobileImg($imgHeight)
+    width: 100%
+    +REM(height,$imgHeight)
+    object-fit: cover
+// 文本两侧对其
+%justify
+    text-align: justify
