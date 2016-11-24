@@ -19,8 +19,3 @@ export default {
     methods: mapActions([ 'addState' ])
 }
 </script>
-
-<style lang="sass?indentedSyntax">
-@import './sass/mixin.sass'
-
-</style>

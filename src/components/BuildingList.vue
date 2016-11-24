@@ -2,13 +2,13 @@
     <div id="buildingList">
         <div class="buildingList__title">
             <!--文字内容,两侧有灰线-->
-            <!--暂以图片替-->
             <img src="../assets/title@2x.png">
         </div>
         <ul>
             <li v-for="item in BuildingList_Arr[0]">
                 <img :src="item.buildingList_imgUrl">
-                <div class="buildingList__info">
+                <!--v-bind:style="{ backgroundImage: url() }"-->
+                <div  class="buildingList__info">
                     <div class="buildingList__info--left">
                         <h2>{{ item.buildingList_title }}</h2>
                         <h3>{{ item.buildingList_describe }}</h3>
@@ -40,8 +40,10 @@ export default {
         +boxShadow(.9px,.8px,2px,rgba(143,153,175,.1))
         /* 楼盘列表-楼盘图片 */
         >img
-            width: 100%
             @extend %dib
+            width: 100%
+            +REM(height,135px)
+            object-fit: cover
         /* 楼盘列表-楼盘信息 */
         .buildingList__info
             +REM(padding-top,11.5px)
@@ -64,6 +66,7 @@ export default {
                     +REM(margin-left,10.5px)
                     color: $text-color
                     +REM(font-size,12px)
+                /* 背景图上坐标图片 */
                 >img
                     font-size: 0
                     display: block

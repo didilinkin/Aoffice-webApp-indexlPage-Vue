@@ -1,28 +1,34 @@
 {
     "buildingList": [
         { 
-            "buildingList_imgUrl": "./dist/pic_home_recommended_1.png",
+            "buildingList_imgUrl": "http://images.aplusoffice.cn/images/building/B000000016/list/pic_hotspot.png",
             "buildingList_bgImgUrl": "./dist/map_home_recommended_1.png",
-            "buildingList_title": "楼盘标题_1",
-            "buildingList_describe": "楼盘描述_1"
+            "buildingList_title": "欢乐颂创意办公空间",
+            "buildingList_describe": "欢乐颂创意办公空间"
         },
         { 
-            "buildingList_imgUrl": "./dist/pic_home_recommended_2.png",
+            "buildingList_imgUrl": "http://images.aplusoffice.cn/images/building/B000000008/list/pic_hotspot.jpg",
             "buildingList_bgImgUrl": "./dist/map_home_recommended_1.png",
-            "buildingList_title": "楼盘标题_2",
-            "buildingList_describe": "楼盘描述_2"
+            "buildingList_title": "长江中心A座",
+            "buildingList_describe": "因为向往大海，所以汇入长江"
         },
         { 
-            "buildingList_imgUrl": "./dist/pic_home_recommended_3.png",
+            "buildingList_imgUrl": "http://images.aplusoffice.cn/images/building/B000000009/list/pic_hotspot.png",
             "buildingList_bgImgUrl": "./dist/map_home_recommended_1.png",
-            "buildingList_title": "楼盘标题_3",
-            "buildingList_describe": "楼盘描述_3"
+            "buildingList_title": "上实中心",
+            "buildingList_describe": "项目作为啤酒节的载体和青岛市的新地标"
         },
         {
-            "buildingList_imgUrl": "./dist/pic_home_recommended_4.png",
+            "buildingList_imgUrl": "http://images.aplusoffice.cn/images/building/B000000001/list/pic_hotspot.png",
             "buildingList_bgImgUrl": "./dist/map_home_recommended_1.png",
-            "buildingList_title": "楼盘标题_4",
-            "buildingList_describe": "楼盘描述_4"
+            "buildingList_title": "华润大厦",
+            "buildingList_describe": "市中心最大规模的国际化高端社区"
+        },
+        {
+            "buildingList_imgUrl": "http://images.aplusoffice.cn/images/building/B000000010/list/pic_hotspot.jpg",
+            "buildingList_bgImgUrl": "./dist/map_home_recommended_1.png",
+            "buildingList_title": "万科中心",
+            "buildingList_describe": "市北新都心万科中心"
         }
     ]
 }

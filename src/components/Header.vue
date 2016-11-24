@@ -6,14 +6,12 @@
 </template>
 
 <script>
-import NavBtn from './NavBtn.vue'
-import Search from './Search.vue'
+import  NavBtn  from    './NavBtn.vue'
+import  Search  from    './Search.vue'
 const components = { NavBtn,Search }
 
 export default {
-    components: components,
-    mounted: function () { },
-    methods: { }
+    components: components
 }
 </script>
 

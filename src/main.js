@@ -15,3 +15,22 @@ if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
 } else {
     document.body.style.fontFamily="Microsoft Yahei";
 };
+
+function menuBtn() {
+    if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
+        tianbai.getCall();
+    } else if (/(Android)/i.test(navigator.userAgent)) {
+        AndroidFunction.showBack();
+    } else {
+        alert('Windows');
+    };
+}
+function dialogBtn(){
+    if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
+        tianbai.call();
+    } else if (/(Android)/i.test(navigator.userAgent)) {
+        AndroidFunction.showChat();
+    } else {
+        alert('Windows');
+    };
+}

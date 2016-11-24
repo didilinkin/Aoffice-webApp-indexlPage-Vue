@@ -1,7 +1,7 @@
 <template>
     <div id="search">
         <form class="search__form">
-            <input class="searchInput" type="search" placeholder="输入大厦名称或地点"/>
+            <input class="searchInput" placeholder="输入大厦名称或地点"/>
             <div @click="alert" class="searchBtn">
                 <img class="searchBtn_Img" :src="searchBtn_Img">
             </div>
@@ -21,16 +21,14 @@ export default {
     },
     methods: {
         alert: function () {
-            alert('弹出成功!')
+            alert('开始搜索')
         }
     }
 }
 </script>
-</script>
 
 <style lang="sass?indentedSyntax">
 @import '../sass/mixin.sass'
-
 #search
     +REM(margin-top,128px)
     form.search__form
@@ -42,17 +40,21 @@ export default {
         .searchInput
             @extend %dib
             float:left
+            zoom: 1
             +REM(padding-top,19.5px)
             +REM(padding-bottom,19.5px)
             +REM(padding-left,12px)
             +REM(padding-right,12px)
             +REM(width,225px-24px)
-            +REM(height,49px)
+            +REM(height,10px)
             border: none
+            border-radius: 0
+            +opacity(.44)
+            /*outline: medium*/
+            outline-color: rgba(255,255,255,.2)
         /* 搜索按钮 */
         .searchBtn
             @extend %flexCenter
-            @extend %dib
             float:left
             +REM(width,60px)
             +REM(height,49px)

@@ -9,30 +9,10 @@
         <link rel="" type="" href="./dist/normalize.css">
         <link rel="apple-touch-icon" href="favicon.png">
         <link rel="Shortcut Icon" href="favicon.png" type="image/x-icon">
-        <title>webapp-index</title>
+        <title>青岛A+Office_webapp</title>
     </head>
     <body>
         <div id="app"></div>
         <script src="./dist/webapp_index.js"></script>
-        <script type="text/javascript">
-            function menuBtn() {
-                if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
-                    tianbai.getCall();
-                } else if (/(Android)/i.test(navigator.userAgent)) {
-                    AndroidFunction.showBack();
-                } else {
-                    alert('Windows');
-                };
-            }
-            function dialogBtn(){
-                if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
-                    tianbai.call();
-                } else if (/(Android)/i.test(navigator.userAgent)) {
-                    AndroidFunction.showChat();
-                } else {
-                    alert('Windows');
-                };
-            }
-        </script>
     </body>
 </html>

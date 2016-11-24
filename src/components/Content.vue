@@ -9,15 +9,12 @@ import BuildingList from './BuildingList.vue'
 const components = { BuildingList }
 
 export default {
-    components: components,
-    mounted: function () { },
-    methods: { }
+    components: components
 }
 </script>
 
 <style lang="sass?indentedSyntax">
 @import '../sass/mixin.sass'
-
 #content
     +REM(padding-left,16px)
     +REM(padding-right,16px)
