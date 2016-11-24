@@ -1,9 +1,5 @@
 <template>
     <div id="buildingList">
-        <div class="buildingList__title">
-            <!--文字内容,两侧有灰线-->
-            <img src="../assets/title@2x.png">
-        </div>
         <ul>
             <li v-for="item in BuildingList_Arr[0]">
                 <img :src="item.buildingList_imgUrl">
@@ -32,9 +28,6 @@ export default {
 <style lang="sass?indentedSyntax" scoped>
 @import '../sass/mixin.sass'
 #buildingList
-    /* 楼盘列表-大标题 */
-    .buildingList__title img
-        width: 100%
     ul li
         +REM(margin-top,15px)
         +boxShadow(.9px,.8px,2px,rgba(143,153,175,.1))
