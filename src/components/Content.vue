@@ -1,15 +1,15 @@
 <template>
     <div id="content">
-        <TitleStyle title="热门办公室推荐" />
+        <Title title="热门办公室推荐" />
         <BuildingList />
-        <TitleStyle title="关于我们" />
+        <Title title="关于我们" />
     </div>
 </template>
 
 <script>
 import BuildingList from './BuildingList.vue'
-import TitleStyle   from './TitleStyle.vue'
-const components = { BuildingList,TitleStyle }
+import Title   from './Title.vue'
+const components = { BuildingList,Title }
 
 export default {
     components: components

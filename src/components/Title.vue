@@ -1,5 +1,5 @@
 <template>
-    <div id="titleStyle">
+    <div id="title">
         <div class="string"></div>
         <h2> {{ title }} </h2>
     </div>
@@ -13,7 +13,7 @@ export default {
 
 <style lang="sass?indentedSyntax">
 @import '../sass/mixin.sass'
-#titleStyle
+#title
     +REM(height,50px)
     @extend %flexCenter
     text-align: center

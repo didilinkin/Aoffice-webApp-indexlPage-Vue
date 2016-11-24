@@ -16,7 +16,11 @@ App.vue (根节点)
     |
     |_ Content.vue (内容)
         |
+        |_ Title.vue (标题组件; Props传入值：'热门办公室推荐')
+        |
         |_ BuuildingList.vue (楼盘列表)
+        |
+        |_ Title.vue (标题组件; Props传入值：'关于我们')
 
 ```
 ***
