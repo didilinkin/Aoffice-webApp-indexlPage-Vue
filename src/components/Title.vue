@@ -14,13 +14,22 @@ export default {
 <style lang="sass?indentedSyntax">
 @import '../sass/mixin.sass'
 #title
-    +REM(height,50px)
+    position: relative
     @extend %flexCenter
+    +REM(height,50px)
     text-align: center
     .string
-        +string(#8f99af)
-    h2
+        display: block
         position: absolute
+        left: 0
+        top: 46%
+        z-index: 1
+        width: 100%
+        +REM(height,1px)
+        border-top: 1px solid #8f99af
+        +REM(border-bottom-width,1px)
+    h2
+        /*position: absolute*/
         @extend %dib
         +REM(padding-left,28px)
         +REM(padding-right,28px)
@@ -29,4 +38,6 @@ export default {
         +bC(#FAFAFA)
         +REM(font-size,14px)
         +REM(line-height,23px)
+        white-space: nowrap
+        z-index: 2
 </style>
