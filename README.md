@@ -1,7 +1,14 @@
-# Aoffice-webapp-indexpage-vue
 # A+office-Webapp-index首页-Vue制作
+***
+## 使用技术说明:
 
-> #### 这是一个 `Vue.js` + `Sass` 项目
+* Vuejs           框架
+* uex            状态管理
+* Sass            样式预处理器
+* Axios           交互处理
+* Webpack         模块打包
+* Babel           ES6转译ES5工具
+* Yarn            模块依赖安装
 
 ***
 ## Components Structure / 组件结构说明:
@@ -21,6 +28,8 @@ App.vue (根节点)
         |_ BuuildingList.vue (楼盘列表)
         |
         |_ Title.vue (标题组件; Props传入值：'关于我们')
+        |
+        |_ AboutUs.vue ('关于我们'内容)
 
 ```
 ***
@@ -47,6 +56,13 @@ npm run build
 关于Vue-loader的文档可在此处阅读 [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 ***
+
+### UI组件库将 使用 [Mint UI](http://mint-ui.github.io/#!/zh-cn)
+
+### 当制作多页面时,将引入`路由` [vue-router 2](http://router.vuejs.org/zh-cn/) 来制作SPA单页面应用
+
+***
+
 
 ## 测试机器: iPhone 6s
 
