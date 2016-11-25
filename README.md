@@ -8,7 +8,9 @@
 * Webpack         模块打包
 * Babel           ES6转译ES5工具
 * Yarn            模块依赖安装
+
 ***
+
 ## Components Structure / 组件结构说明:
 ```
 App.vue (根节点)
