@@ -2268,6 +2268,10 @@ ms@0.7.2:
   version "0.7.2"
   resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.2.tgz#ae25cf2512b3885a1d95d7f037868d8431124765"
 
+muse-ui:
+  version "2.0.0-alpha.10"
+  resolved "https://registry.yarnpkg.com/muse-ui/-/muse-ui-2.0.0-alpha.10.tgz#a26b506b9e9366e6ba0cd695180409b3c43dcbe8"
+
 nan@^2.3.0, nan@^2.3.2:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.4.0.tgz#fb3c59d45fe4effe215f0b890f8adf6eb32d2232"
@@ -3381,6 +3385,12 @@ strip-indent@^1.0.1:
 strip-json-comments@~1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-1.0.4.tgz#1e15fbcac97d3ee99bf2d73b4c656b082bbafb91"
+
+style-loader:
+  version "0.13.1"
+  resolved "https://registry.yarnpkg.com/style-loader/-/style-loader-0.13.1.tgz#468280efbc0473023cd3a6cd56e33b5a1d7fc3a9"
+  dependencies:
+    loader-utils "^0.2.7"
 
 supports-color@^2.0.0:
   version "2.0.0"

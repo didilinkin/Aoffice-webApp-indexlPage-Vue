@@ -4,6 +4,7 @@
         <BuildingList />
         <Title :title=titleArr[1].title /><!-- 父组件向子组件传递数据 -->
         <AboutUs />
+        <!--<BottomNav />-->
     </div>
 </template>
 
@@ -11,6 +12,9 @@
 import BuildingList     from './BuildingList.vue'
 import Title            from './Title.vue'
 import AboutUs          from './AboutUs.vue'
+// 测试添加底部导航栏-MusUI
+// import BottomNav        from './BottomNav.vue'
+// ,BottomNav
 const components = { BuildingList,Title,AboutUs }
 
 export default {
