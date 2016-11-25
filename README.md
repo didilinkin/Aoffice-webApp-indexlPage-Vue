@@ -1,7 +1,6 @@
 # A+office-Webapp-index首页-Vue制作
 ***
-## 使用技术说明:
-
+## 使用技术:
 * Vuejs           框架
 * uex            状态管理
 * Sass            样式预处理器
@@ -9,7 +8,6 @@
 * Webpack         模块打包
 * Babel           ES6转译ES5工具
 * Yarn            模块依赖安装
-
 ***
 ## Components Structure / 组件结构说明:
 ```
