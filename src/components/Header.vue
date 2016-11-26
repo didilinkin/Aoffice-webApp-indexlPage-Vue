@@ -22,7 +22,6 @@ export default {
     +REM(padding-top,7.5px)
     +REM(padding-left,16px)
     +REM(padding-right,16px)
-    width: ((375px-(16px)*2))/37.5px*1rem
     +REM(height,285px)
     background:
         image: url(../assets/homeBannerBg@2x.png)

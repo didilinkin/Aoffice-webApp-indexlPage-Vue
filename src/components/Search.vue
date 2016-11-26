@@ -50,14 +50,12 @@ export default {
             border: none
             border-radius: 0
             +opacity(.44)
-            /*outline: medium*/
             outline-color: rgba(255,255,255,.2)
         /* 搜索按钮 */
         .searchBtn
             @extend %flexCenter
             float:left
             +REM(width,60px)
-            +REM(height,49px)
+            +REM(height,49px-10px)
             +bC(rgba(255,39,37,.6))
-            +opacity(60%)
 </style>

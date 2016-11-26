@@ -42,7 +42,8 @@
     /* 如果浏览器不支持rem将使用这个规则进行覆盖 */
     font-size: $size
     font-size: ($size/16px) * 1rem
-
+=colorF
+    color: #FFF
 // CSS样式/背景
 =bC($backgroundColor)
     background-color: $backgroundColor
@@ -126,3 +127,7 @@ $textBackground-color: rgb(240,240,240)
 // 文本两侧对其
 %justify
     text-align: justify
+
+// 强制抵消UI icon 默认样式
+=uiIcon($icon-size)
+    font-size: $icon-size !important

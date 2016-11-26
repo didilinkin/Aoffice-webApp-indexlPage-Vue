@@ -43,7 +43,6 @@ export default {
             +REM(padding-bottom,11.5px)
             +REM(margin-top,-4px)
             width: 100%
-            +REM(height,(57px-11.5px))
             /* 暂时无法循环背景图片 */
             background:
                 image: url(../assets/map_home_recommended_1.png)
@@ -57,6 +56,7 @@ export default {
                     +REM(line-height,21px)
                 h3
                     +REM(margin-left,10.5px)
+                    +REM(margin-bottom,4px)
                     color: $text-color
                     +REM(font-size,12px)
                 /* 背景图上坐标图片 */
