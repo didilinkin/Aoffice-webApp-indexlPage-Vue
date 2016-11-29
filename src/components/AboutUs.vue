@@ -46,7 +46,7 @@ export default {
                     value: '山东省青岛市市南区华润大厦B座2408号'
                 }
             ],
-            addressImg: './dist/group_2.png'
+            addressImg: require('../assets/group_2.png')
         }
     }
 }

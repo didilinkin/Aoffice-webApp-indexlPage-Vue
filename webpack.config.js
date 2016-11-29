@@ -30,10 +30,7 @@ module.exports = {
       },
       {
         test: /\.(png|jpg|gif|svg)$/,
-        loader: 'file-loader',
-        options: {
-          name: './[name].[ext]?[hash]'
-        }
+        loader: 'url-loader?limit=100000&name=img/[name].[ext].[hash:8]'
       },
       {
         test: /muse-ui.src.*?js$/,
