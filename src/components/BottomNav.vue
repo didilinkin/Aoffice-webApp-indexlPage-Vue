@@ -6,6 +6,7 @@
       <mu-bottom-nav-item value="building" title="房源" icon="location_city"/>
       <mu-bottom-nav-item value="map" title="地图" icon="map"/>
       <mu-bottom-nav-item value="serve" title="服务" icon="headset_mic"/>
+      <mu-bottom-nav-item value="user" title="我的" icon="person"/>
     </mu-bottom-nav>
   </mu-paper>
 </template>

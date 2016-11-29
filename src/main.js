@@ -1,14 +1,19 @@
 import Vue from 'vue'
 import App from './App.vue'
 import store from './store'
+import VueRouter from 'vue-router'
 
 import MuseUI from 'muse-ui'
 import 'muse-ui/dist/muse-ui.css'
-Vue.use(MuseUI)
+Vue.use(
+    MuseUI,
+    VueRouter
+)
 
 new Vue({
   el: '#app',
   store,
+  VueRouter,
   render: h => h(App)
 })
 
