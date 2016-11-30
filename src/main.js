@@ -1,23 +1,18 @@
 import Vue from 'vue'
 import store from './store'
 import router from './router/config.js'
-import App from './App.vue'
-import VueRouter from 'vue-router'
 import MuseUI from 'muse-ui'
 import 'muse-ui/dist/muse-ui.css'
 
 Vue.use(
-    MuseUI,
-    VueRouter
+    MuseUI
 )
 
 new Vue({
     el: '#app',
     store,
-    router: router.router,
-    render: h => h(App)
-})
-// .$mount('#app')
+    router: router.router
+}).$mount('#app')
 
 if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
     document.body.style.fontFamily="PingFang SC Regular";
