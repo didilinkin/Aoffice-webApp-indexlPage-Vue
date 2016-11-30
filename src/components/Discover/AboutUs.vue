@@ -46,14 +46,14 @@ export default {
                     value: '山东省青岛市市南区华润大厦B座2408号'
                 }
             ],
-            addressImg: require('../assets/group_2.png')
+            addressImg: require('../../assets/group_2.png')
         }
     }
 }
 </script>
 
 <style lang="sass?indentedSyntax">
-@import '../sass/mixin.sass'
+@import '../../sass/mixin.sass'
 /* 文字盒子 样式(通用) */
 .textBox
     +REM(padding-right,16px)

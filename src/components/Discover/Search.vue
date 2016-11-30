@@ -13,22 +13,20 @@
 export default {
     data () {
         return {
-            searchBtn_Img: require('../assets/icon_home_search.png')
+            searchBtn_Img: require('../../assets/icon_home_search.png')
         }
     },
-    mounted: function () {
-        // this.alert()
-    },
+    mounted: function () {},
     methods: {
         alert: function () {
-            alert('开始搜索')
+            alert('搜索!')
         }
     }
 }
 </script>
 
 <style lang="sass?indentedSyntax">
-@import '../sass/mixin.sass'
+@import '../../sass/mixin.sass'
 #search
     +REM(margin-top,128px)
     form.search__form

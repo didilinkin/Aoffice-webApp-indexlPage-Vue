@@ -6,13 +6,11 @@
 </template>
 
 <script>
-export default {
-    props: ['title']
-}
+export default { props: ['title'] }
 </script>
 
 <style lang="sass?indentedSyntax">
-@import '../sass/mixin.sass'
+@import '../../sass/mixin.sass'
 #title
     position: relative
     @extend %flexCenter

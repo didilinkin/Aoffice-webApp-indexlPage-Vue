@@ -13,15 +13,15 @@
 export default { 
     data () {
         return {
-            menuImg: require('../assets/nav_icon_menu.png'),
-            dialogImg: require('../assets/nav_icon_dialog.png')
+            menuImg: require('../../assets/nav_icon_menu.png'),
+            dialogImg: require('../../assets/nav_icon_dialog.png')
         }
     }
  }
 </script>
 
 <style lang="sass?indentedSyntax">
-@import '../sass/mixin.sass'
+@import '../../sass/mixin.sass'
 %spanImg
     position: absolute
     +REM(width,25px)

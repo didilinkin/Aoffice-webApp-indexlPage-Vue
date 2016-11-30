@@ -3,14 +3,13 @@
         <ul>
             <li v-for="item in BuildingList_Arr[0]">
                 <img :src="item.buildingList_imgUrl">
-                <!--v-bind:style="{ backgroundImage: url() }"-->
                 <div  class="buildingList__info">
                     <div class="buildingList__info--left">
                         <h2>{{ item.buildingList_title }}</h2>
                         <h3>{{ item.buildingList_describe }}</h3>
                     </div>
                     <div class="buildingList__info--right">
-                        <img src="../assets/icon_nav.png">
+                        <img src="../../assets/icon_nav.png">
                     </div>
                 </div>
             </li>
@@ -26,7 +25,7 @@ export default {
 </script>
 
 <style lang="sass?indentedSyntax" scoped>
-@import '../sass/mixin.sass'
+@import '../../sass/mixin.sass'
 #buildingList
     ul li
         +REM(margin-top,15px)
@@ -45,7 +44,7 @@ export default {
             width: 100%
             /* 暂时无法循环背景图片 */
             background:
-                image: url(../assets/map_home_recommended_1.png)
+                image: url(../../assets/map_home_recommended_1.png)
                 size: 100% 100%
             .buildingList__info--left
                 @extend %dib
