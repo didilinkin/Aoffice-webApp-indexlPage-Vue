@@ -1,21 +1,16 @@
 <template>
     <div id="app">
-        <Header />
-        <Content />
-        <BottomNav />
+        <!-- 路由组件 -->
+        <router-view name="AppContent">      </router-view>
+        <router-view name="AppBottomNav">    </router-view>
+        <h1>测试</h1>
     </div>
 </template>
 
 <script>
 import { mapGetters, mapActions } from 'vuex'   // 引入Vuex‘获取方法 与 行为方法’
-import  Header      from    './components/Header.vue'
-import  Content     from    './components/Content.vue'
-// 底部导航栏-MuseUI
-import BottomNav        from './components/BottomNav.vue'
-const   components = { Header,Content,BottomNav }
 
 export default {
-    components: components,
     mounted: function () {
         this.addState()
     },
