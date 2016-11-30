@@ -1,4 +1,9 @@
 # A+office-Webapp-index首页-Vue制作
+
+> 本页面需要在服务器环境下通过域名访问,勿直接浏览静态页面
+>
+> 框架基于Vue 2
+
 ***
 ## 使用技术:
 * Vuejs           框架
@@ -57,7 +62,7 @@ npm run build
 
 ***
 
-### UI组件库将 使用 [Mint UI](http://mint-ui.github.io/#!/zh-cn)
+### UI组件库将 使用 [Muse UI](https://museui.github.io/#/index)
 
 ### 当制作多页面时,将引入`路由` [vue-router 2](http://router.vuejs.org/zh-cn/) 来制作SPA单页面应用
 
