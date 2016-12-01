@@ -1,5 +1,5 @@
 <template>
-    <div id="app">
+    <div id="index">
         <!-- 路由组件 -->
         <router-view name="AppContent">      </router-view>
         <router-view name="AppBottomNav">    </router-view>
@@ -23,11 +23,4 @@ export default {
 
 #app
     position: relative
-    padding-bottom: 1.5rem
-
-/* 跳转特效 */
-.component-fade-enter-active, .component-fade-leave-active
-  transition: opacity .3s ease
-.component-fade-enter, .component-fade-leave-active
-  opacity: 0
 </style>

@@ -8,10 +8,10 @@
 </template>
 
 <script>
-import BuildingList     from './BuildingList.vue'
-import Title            from './Title.vue'
-import AboutUs          from './AboutUs.vue'
-const components = { BuildingList,Title,AboutUs }
+import  BuildingList     from   './BuildingList.vue'
+import  Title            from   './Title.vue'
+import  AboutUs          from   './AboutUs.vue'
+const   components = { BuildingList,Title,AboutUs }
 
 export default {
     data() {
@@ -31,7 +31,7 @@ export default {
 #content
     +REM(padding-left,16px)
     +REM(padding-right,16px)
-    +REM(padding-bottom,16px)
+    +REM(padding-bottom,80px)
     +bC(#FAFAFA)
     .string
         +string(#8f99af)

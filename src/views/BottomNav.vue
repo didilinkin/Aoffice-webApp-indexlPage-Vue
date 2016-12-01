@@ -34,9 +34,4 @@ export default {
 <style lang="sass?indentedSyntax" scoped>
 @import '../sass/mixin.sass'
 
-.mu-bottom-nav
-  /*+REM(height,48px)*/
-  +colorF
-  a
-    text-decoration: none
 </style>

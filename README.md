@@ -7,7 +7,7 @@
 ***
 ## 使用技术:
 * Vuejs           框架
-* uex            状态管理
+* Vuex            状态管理
 * Sass            样式预处理器
 * Axios           交互处理
 * Webpack         模块打包

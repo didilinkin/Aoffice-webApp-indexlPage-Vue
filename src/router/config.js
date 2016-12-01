@@ -21,7 +21,7 @@ const router = new VueRouter({
         },
         {
             path: '/',
-            name:'app',
+            name:'index',
             components: {
                 default: app
             },
